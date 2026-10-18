@@ -12,7 +12,7 @@ translation=Programu-jalizi za msingi
 
 [setting.action-reveal-plugin-in-list]
 original=Reveal in plugin list
-translation=
+translation=Onyesha katika orodha ya programu-jalizi
 
 [setting.plugin-options]
 original=Plugin options
@@ -28,7 +28,7 @@ translation=Mfano: folda/noti
 
 [setting.no-file-placeholder]
 original=No file selected
-translation=
+translation=Hakuna faili iliyochaguliwa
 
 [setting.msg-restart-required]
 original=Changing this option requires a restart to take effect.
@@ -196,7 +196,7 @@ translation=Mwonekano wa chaguo-msingi ambao kichupo kipya cha Markdown kinafung
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
-translation=Muonekano wa uhariri
+translation=Mwonekano wa uhariri
 
 [setting.editor.option-default-new-tab-view-reading]
 original=Reading view
@@ -712,23 +712,23 @@ translation=
 
 [setting.appearance.option-font-size]
 original=Font size
-translation=
+translation=Ukubwa wa fonti
 
 [setting.appearance.option-font-size-description]
 original=Font size in pixels that affects editing and reading views.
-translation=
+translation=Ukubwa wa fonti katika pikseli unaoathiri uhariri na usomaji wa mwonekano.
 
 [setting.appearance.alias-font-size]
 original=text size zoom
-translation=
+translation=kukuza ukubwa wa maandishi
 
 [setting.appearance.option-font-size-action]
 original=Quick font size adjustment
-translation=
+translation=Marekebisho ya haraka ya ukubwa wa fonti
 
 [setting.appearance.option-font-size-action-description]
 original=Adjust the font size using Ctrl + Scroll, or using the trackpad pinch-zoom gesture.
-translation=
+translation=Rekebisha ukubwa wa fonti kwa kutumia Ctrl + Sogeza, au kwa kutumia ishara ya kubana-kuza kwenye padi ya kufuatilia.
 
 [setting.appearance.option-themes]
 original=Themes
@@ -744,11 +744,11 @@ translation=
 
 [setting.appearance.option-theme-button-manage]
 original=Manage
-translation=
+translation=Dhibiti
 
 [setting.appearance.option-choice-none]
 original=None
-translation=
+translation=Hakuna
 
 [setting.appearance.option-native-menus]
 original=Native menus
@@ -760,19 +760,19 @@ translation=
 
 [setting.appearance.button-open-themes-folder]
 original=Open themes folder
-translation=
+translation=Fungua folda ya mandhari
 
 [setting.appearance.option-css-snippets]
 original=CSS snippets
-translation=
+translation=Vipande vya CSS
 
 [setting.appearance.option-css-snippets-description]
 original=Manage your collection of CSS files for tweaking the app's appearance.
-translation=
+translation=Dhibiti mkusanyiko wako wa faili za CSS kwa ajili ya kubinafsisha mwonekano wa programu.
 
 [setting.appearance.label-no-css-snippets-found]
 original=No CSS snippets found.
-translation=
+translation=Hakuna vipande vya CSS vilivyopatikana.
 
 [setting.appearance.label-enabled-snippets-count]
 original={{count}} enabled
@@ -792,15 +792,15 @@ translation=
 
 [setting.appearance.msg-reloaded-snippets]
 original=Reloaded CSS snippets.
-translation=
+translation=Imepakia upya vipande vya CSS.
 
 [setting.appearance.placeholder-search-snippet]
 original=Search snippets...
-translation=
+translation=Tafuta vipande...
 
 [setting.appearance.label-installed-themes]
 original=Installed themes
-translation=
+translation=Mandhari zilizosakinishwa
 
 [setting.appearance.label-screenshot-unavailable]
 original=Screenshot unavailable
@@ -940,11 +940,11 @@ translation=
 
 [setting.appearance.button-check-for-updates]
 original=Check for updates
-translation=
+translation=Angalia masasisho
 
 [setting.appearance.button-view-updates]
 original=View updates
-translation=
+translation=Tazama masasisho
 
 [setting.appearance.button-update-all-themes]
 original=Update all
@@ -1672,11 +1672,11 @@ translation=
 
 [setting.third-party-plugin.action-view-details]
 original=View details
-translation=
+translation=Tazama maelezo
 
 [setting.third-party-plugin.action-open-community-page]
 original=Open community page
-translation=
+translation=Fungua ukurasa wa jumuiya
 
 [setting.third-party-plugin.action-settings]
 original=Settings
@@ -1716,11 +1716,11 @@ translation=
 
 [setting.third-party-plugin.label-last-update]
 original=Last update: 
-translation=
+translation=Sasisho la mwisho: 
 
 [setting.third-party-plugin.tooltip-view-last-update]
 original=View the latest update
-translation=
+translation=Tazama sasisho jipya zaidi
 
 [setting.third-party-plugin.label-unsupported]
 original=This plugin does not support your device.
@@ -1728,7 +1728,7 @@ translation=
 
 [setting.third-party-plugin.button-update]
 original=Update
-translation=
+translation=Sasisho
 
 [setting.third-party-plugin.label-no-readme]
 original=This plugin did not provide a README file.
@@ -1780,11 +1780,11 @@ translation=
 
 [setting.third-party-plugin.button-open-plugins-folder]
 original=Open plugins folder
-translation=
+translation=Fungua folda ya programu-jalizi
 
 [setting.third-party-plugin.button-check-for-updates]
 original=Check for updates
-translation=
+translation=Angalia masasisho
 
 [setting.third-party-plugin.button-update-all-plugins]
 original=Update all
@@ -2260,7 +2260,7 @@ translation=
 
 [interface.msg-plugin-nonfunctional]
 original={{plugin}} is no longer functional. We recommend uninstalling it.
-translation=
+translation={{plugin}} haifanyi kazi tena. Tunapendekeza kuiondoa.
 
 [interface.msg-plugin-version-issues]
 original=Unable to load plugin {{plugin}} v{{version}}. This version has been reported to cause issues. Please check for a newer version of the plugin.
@@ -2268,11 +2268,11 @@ translation=
 
 [interface.msg-failed-to-load-file]
 original=Failed to open “{{filepath}}”
-translation=
+translation=Imeshindwa kufungua “{{filepath}}”
 
 [interface.msg-failed-to-export]
 original=Failed to export “{{filename}}”
-translation=
+translation=Imeshindwa kuhamisha “{{filename}}”
 
 [interface.msg-failed-to-close-view]
 original=The “{{name}}” view encountered an error while closing
@@ -2280,11 +2280,11 @@ translation=
 
 [interface.msg-failed-to-open-href]
 original=Cannot open location “{{href}}”
-translation=
+translation=Haiwezi kufungua eneo la “{{href}}”
 
 [interface.no-file]
 original=No file
-translation=
+translation=Hakuna faili
 
 [interface.msg-file-changed]
 original=“{{file}}” has been modified externally, merging changes automatically.
@@ -2292,11 +2292,11 @@ translation=
 
 [interface.manage-vaults]
 original=Manage vaults...
-translation=
+translation=Dhibiti hazina...
 
 [interface.help]
 original=Help
-translation=
+translation=Msaada
 
 [interface.settings]
 original=Settings
@@ -2488,7 +2488,7 @@ translation=
 
 [interface.formatting.insert-callout]
 original=Callout
-translation=
+translation=Wito
 
 [interface.formatting.insert-horizontal-rule]
 original=Horizontal rule
@@ -2736,7 +2736,7 @@ translation=
 
 [interface.menu.toggle-reading-view]
 original=Reading view
-translation=
+translation=Mwonekano wa kusoma
 
 [interface.menu.add-property]
 original=Add file property
@@ -2916,7 +2916,7 @@ translation=
 
 [interface.start-screen.option-reveal-vault-in-explorer]
 original=Reveal vault in system explorer
-translation=
+translation=Fumbua hazina katika kichunguzi cha mfumo
 
 [interface.start-screen.option-reveal-vault-in-explorer-mac]
 original=Reveal vault in Finder
@@ -3788,7 +3788,7 @@ translation=
 
 [commands.toggle-edit]
 original=Toggle editing/reading view
-translation=
+translation=Badilisha mwonekano wa kusoma/kuhariri
 
 [commands.toggle-source-mode]
 original=Toggle Live Preview/Source mode
@@ -4268,7 +4268,7 @@ translation=
 
 [dialogue.label-selected]
 original=Selected
-translation=
+translation=Imechaguliwa
 
 [dialogue.msg-rename-success]
 original=Successfully renamed file.
@@ -5592,7 +5592,7 @@ translation=
 
 [plugins.page-preview.label-source-editor]
 original=Editing view
-translation=
+translation=Mwonekano wa uhariri
 
 [plugins.page-preview.label-source-preview]
 original=Reading view
@@ -10072,111 +10072,111 @@ translation=
 
 [table.label-column]
 original=Column
-translation=
+translation=Safu wima
 
 [table.label-row]
 original=Row
-translation=
+translation=Safu mlalo
 
 [table.action-row-after]
 original=Add row below
-translation=
+translation=Ongeza safu mlalo hapo chini
 
 [table.action-column-after]
 original=Add column to the right
-translation=
+translation=Ongeza safu wima upande wa kulia
 
 [table.action-row-before]
 original=Add row above
-translation=
+translation=Ongeza safu mlalo hapo juu
 
 [table.action-row-up]
 original=Move row up
-translation=
+translation=Sogeza safu mlalo juu
 
 [table.action-row-down]
 original=Move row down
-translation=
+translation=Sogeza safu mlalo chini
 
 [table.action-column-before]
 original=Add column to the left
-translation=
+translation=Ongeza safu wima upande wa kushoto
 
 [table.action-column-left]
 original=Move column left
-translation=
+translation=Sogeza safu wima kushoto
 
 [table.action-column-right]
 original=Move column right
-translation=
+translation=Sogeza safu wima kulia
 
 [table.action-duplicate-row]
 original=Duplicate row
-translation=
+translation=Nakili safu mlalo
 
 [table.action-duplicate-column]
 original=Duplicate column
-translation=
+translation=Nakili safu wima
 
 [table.action-delete-row]
 original=Delete row
-translation=
+translation=Ondoa safu mlalo
 
 [table.action-delete-column]
 original=Delete column
-translation=
+translation=Ondoa safu wima
 
 [table.action-align-left]
 original=Align left
-translation=
+translation=Panga kushoto
 
 [table.action-align-center]
 original=Align center
-translation=
+translation=Panga katikati
 
 [table.action-align-right]
 original=Align right
-translation=
+translation=Panga kulia
 
 [table.action-delete-selection]
 original=Delete cells
-translation=
+translation=Ondoa seli
 
 [table.action-clear-selection]
 original=Clear cells
-translation=
+translation=Futa maudhui ya seli
 
 [table.action-sort-a-z]
 original=Sort by column (A to Z)
-translation=
+translation=Panga kwa safu wima (A hadi Z)
 
 [table.action-sort-z-a]
 original=Sort by column (Z to A)
-translation=
+translation=Panga kwa safu wima (Z hadi A)
 
 [table.label-command]
 original=Table: {{command}}
-translation=
+translation=Jedwali: {{command}}
 
 [callout.option-type]
 original=Callout type
-translation=
+translation=Aino ya wito
 
 [callout.type.info]
 original=Info
-translation=
+translation=Taarifa
 
 [callout.type.important]
 original=Important
-translation=
+translation=Muhimu
 
 [callout.type.tip]
 original=Tip
-translation=
+translation=Kidokezo
 
 [callout.type.success]
 original=Success
-translation=
+translation=Mafanikio
 
 [callout.type.question]
 original=Question
@@ -10188,7 +10188,7 @@ translation=
 
 [callout.type.quote]
 original=Quote
-translation=
+translation=Nukuu
 
 [callout.type.example]
 original=Example
@@ -10196,199 +10196,199 @@ translation=Mfano
 
 [callout.type.none]
 original=None
-translation=
+translation=Hakuna
 
 [callout.option-other]
 original=Other...
-translation=
+translation=Nyingine...
 
 [callout.option-other-placeholder]
 original=Callout type...
-translation=
+translation=Aina ya simu...
 
 [nouns.count]
 original={{count}}
-translation=
+translation={{count}}
 
 [nouns.word-with-count]
 original={{count}} word
-translation=
+translation=neno {{count}}
 
 [nouns.word-with-count_plural]
 original={{count}} words
-translation=
+translation=maneno {{count}}
 
 [nouns.result-with-count]
 original={{count}} result
-translation=
+translation=matokeo {{count}}
 
 [nouns.result-with-count_plural]
 original={{count}} results
-translation=
+translation=matokeo {{count}}
 
 [nouns.character-with-count]
 original={{count}} character
-translation=
+translation=mhusika {{count}}
 
 [nouns.character-with-count_plural]
 original={{count}} characters
-translation=
+translation=wahusika {{count}}
 
 [nouns.link-with-count]
 original={{count}} link
-translation=
+translation=kiungo {{count}}
 
 [nouns.link-with-count_plural]
 original={{count}} links
-translation=
+translation=viungo {{count}}
 
 [nouns.file-with-count]
 original={{count}} file
-translation=
+translation=faili {{count}}
 
 [nouns.file-with-count_plural]
 original={{count}} files
-translation=
+translation=faili {{count}}
 
 [nouns.folder-with-count]
 original={{count}} folder
-translation=
+translation=folda {{count}}
 
 [nouns.folder-with-count_plural]
 original={{count}} folders
-translation=
+translation=folda {{count}}
 
 [nouns.backlink-with-count]
 original={{count}} backlink
-translation=
+translation=kiungo {{count}} cha nyuma
 
 [nouns.backlink-with-count_plural]
 original={{count}} backlinks
-translation=
+translation=viungo {{count}} vya nyuma
 
 [nouns.tabs-with-count]
 original={{count}} tab
-translation=
+translation=kichupo {{count}}
 
 [nouns.tabs-with-count_plural]
 original={{count}} tabs
-translation=
+translation=vichupo {{count}}
 
 [nouns.properties-with-count]
 original={{count}} property
-translation=
+translation=mali {{count}}
 
 [nouns.properties-with-count_plural]
 original={{count}} properties
-translation=
+translation=mali {{count}}
 
 [nouns.site-with-count]
 original={{count}} site
-translation=
+translation=tovuti {{count}}
 
 [nouns.site-with-count_plural]
 original={{count}} sites
-translation=
+translation=tovuti {{count}}
 
 [nouns.plugin-with-count]
 original={{count}} plugin
-translation=
+translation=programu-jalizi {{count}}
 
 [nouns.plugin-with-count_plural]
 original={{count}} plugins
-translation=
+translation=programu-jalizi {{count}}
 
 [nouns.plugin-active-with-count]
 original={{count}} active
-translation=
+translation={{count}} inayotumika
 
 [nouns.snippet-active-with-count]
 original={{count}} snippet
-translation=
+translation=kipande {{count}} cha CSS
 
 [nouns.snippet-active-with-count_plural]
 original={{count}} snippets
-translation=
+translation=vipande {{count}} vya CSS
 
 [nouns.theme-with-count]
 original={{count}} theme
-translation=
+translation=Mandhari {{count}}
 
 [nouns.theme-with-count_plural]
 original={{count}} themes
-translation=
+translation=Mandhari {{count}}
 
 [main.button-cancel]
 original=Cancel
-translation=
+translation=Ghairi
 
 [main.button-ok]
 original=OK
-translation=
+translation=Sawa
 
 [main.button-copy]
 original=Copy
-translation=
+translation=Nakili
 
 [main.button-open-link]
 original=Open Link
-translation=
+translation=Fungua kiungo
 
 [main.button-open-file]
 original=Open this file
-translation=
+translation=Fungua faili hii
 
 [main.button-run-file]
 original=Run File
-translation=
+translation=Endesha Faili
 
 [main.external-link-title]
 original=Open external link?
-translation=
+translation=Fungua kiungo cha nje?
 
 [main.external-link-message]
 original=This link will open an external application outside of Obsidian. Only proceed if you trust the source of this link.
-translation=
+translation=Kiungo hiki kitafungua programu ya nje nje ya Obsidian. Endelea tu ikiwa unaamini chanzo cha kiungo hiki.
 
 [main.external-link-always-open]
 original=Always open {{scheme}}:// links
-translation=
+translation=Fungua viungo vya {{scheme}}:// kila wakati
 
 [main.remote-file-title]
 original=Remote file warning
-translation=
+translation=Onyo la faili ya mbali
 
 [main.remote-file-message]
 original=This file is located on a remote server, and may be dangerous.\nAre you sure you want to open it?
-translation=
+translation=Faili hii iko kwenye seva ya mbali, na inaweza kuwa hatari.\nUna uhakika unataka kuifungua?
 
 [main.remote-file-location]
 original=Location: {{location}}
-translation=
+translation=Eneo: {{location}}
 
 [main.network-drive-title]
 original=Network drive access
-translation=
+translation=Ufikiaji wa kiendeshi cha mtandao
 
 [main.network-drive-message]
 original=This content is requesting data from a network drive. Allowing this may expose your login credentials or other sensitive information to the remote host.
-translation=
+translation=Maudhui haya yanaomba data kutoka kwa hifadhi ya mtandao. Kuruhusu hili kunaweza kufichua sifa zako za kuingia au taarifa nyingine nyeti kwa seva pangishi ya mbali.
 
 [main.network-drive-host]
 original=Host: {{host}}
-translation=
+translation=Mwenyeji: {{host}}
 
 [main.button-allow]
 original=Allow
-translation=
+translation=Ruhusu
 
 [main.executable-file-title]
 original=Run executable file?
-translation=
+translation=Je, endesha faili hii inayoweza kutekelezwa?
 
 [main.executable-file-message]
 original=This link points to an executable file. Running it could harm your computer.
-translation=
+translation=Kiungo hiki kinaelekeza kwenye faili inayoweza kutekelezwa. Kuitumia kunaweza kudhuru kompyuta yako.
 
 [main.executable-file-location]
 original=File: {{path}}
@@ -10396,12 +10396,12 @@ translation=Faili: {{path}}
 
 [main.vault-not-found-title]
 original=Vault not found.
-translation=
+translation=Hazina haikupatikana.
 
 [main.vault-not-found-message]
 original=Unable to find a vault for the URL {{url}}
-translation=
+translation=Haikuweza kupata hazina vitu kwa ajili ya URL ya {{url}}
 
 [main.supported-files]
 original=Supported files
-translation=
+translation=Faili zinazoungwa mkono
