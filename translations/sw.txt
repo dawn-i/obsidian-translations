@@ -200,7 +200,7 @@ translation=Mwonekano wa uhariri
 
 [setting.editor.option-default-new-tab-view-reading]
 original=Reading view
-translation=Muonekano wa kusoma
+translation=Mwonekano wa kusoma
 
 [setting.editor.option-open-tab-in-foreground]
 original=Always focus new tabs
@@ -10089,6 +10089,14 @@ translation=Ongeza safu wima upande wa kulia
 [table.action-row-before]
 original=Add row above
 translation=Ongeza safu mlalo hapo juu
+
+[table.action-column-after]
+original=Add column to the right
+translation=
+
+[table.action-row-before]
+original=Add row above
+translation=
 
 [table.action-row-up]
 original=Move row up
