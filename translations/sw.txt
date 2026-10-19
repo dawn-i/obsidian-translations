@@ -24,7 +24,7 @@ translation=Mfano: folda 1/folda 2
 
 [setting.file-path-example-placeholder]
 original=Example: folder/note
-translation=Mfano: folda/noti
+translation=Mfano: folda/kumbukumbu
 
 [setting.no-file-placeholder]
 original=No file selected
@@ -36,31 +36,31 @@ translation=Kubadilisha chaguo hili kunahitaji kuanzisha upya ili kutekelezwa.
 
 [setting.msg-invalid-number]
 original=Invalid number
-translation=
+translation=Nambari batili
 
 [setting.msg-value-at-least]
 original=Value must be at least {{min}}
-translation=
+translation=Thamani lazima iwe angalau {{min}}
 
 [setting.msg-value-at-most]
 original=Value must be at most {{max}}
-translation=
+translation=Thamani lazima isiwe zaidi ya {{max}}
 
 [setting.msg-file-not-found]
 original=File not found.
-translation=
+translation=Faili halikupatikana.
 
 [setting.search-settings]
 original=Search settings...
-translation=
+translation=Mipangilio ya utafutaji...
 
 [setting.no-search-results]
 original=No settings found.
-translation=
+translation=Hakuna mipangilio iliyopatikan.
 
 [setting.search-show-more]
 original={{count}} more
-translation=
+translation={{count}} zaidi
 
 [setting.editor.name]
 original=Editor
@@ -128,7 +128,7 @@ translation=Maelekezo ya Markdown hupuuza mapumziko ya mstari mmoja katika mwone
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
-translation=Mali katika hati
+translation=Sifa katika hati
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
@@ -256,7 +256,7 @@ translation=Upana wa ujengaji wa kuona
 
 [setting.editor.option-tab-size-description]
 original=Number of spaces a tab character will render as.
-translation=Idadi ya nafasi ambazo tab itaonyesha.
+translation=Idadi ya nafasi ambazo nafasi ya amwanzo itaonyesha kama.
 
 [setting.editor.option-rtl]
 original=Right-to-left (RTL)
@@ -268,11 +268,11 @@ translation=Inaweka mwelekeo wa maandishi kuwa kutoka kulia kwenda kushoto.
 
 [setting.editor.option-mermaid-allow]
 original=Show Mermaid diagrams in notes
-translation=
+translation=Onyesha michoro ya Mermaid katika kumbukumbu
 
 [setting.editor.option-mermaid-allow-description]
 original=Render flowcharts, sequence diagrams, and other diagrams from “mermaid” code blocks.
-translation=
+translation=Tengeneza chati za mtiririko, michoro ya mfuatano, na michoro mingine kutoka katika sehemu za kodi za "mermaid".
 
 [setting.editor.option-auto-convert-html]
 original=Convert pasted HTML to Markdown
@@ -296,11 +296,11 @@ translation=Katika vifaa vya rununu, mpangilio huu ni wa kifaa kimoja na haujasa
 
 [setting.editor.option-reindex-vault]
 original=Rebuild vault cache
-translation=Jenga upya kashe ya hazina
+translation=Jenga upya kashe ya ghala
 
 [setting.editor.option-reindex-vault-description]
 original=Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault.
-translation=Ujenzi upya wa kashe unaweza kuchukua sekunde chache hadi dakika kadhaa kulingana na ukubwa wa hazina yako.
+translation=Ujenzi upya wa kashe unaweza kuchukua sekunde chache hadi dakika kadhaa kulingana na ukubwa wa ghala yako.
 
 [setting.editor.label-reindex]
 original=Rebuild
@@ -412,7 +412,7 @@ translation=Ilifunguliwa mwisho
 
 [setting.file.option-choice-new-note]
 original=New note
-translation=Noti mpya
+translation=Kumbukumbu mpya
 
 [setting.file.option-choice-specific-file]
 original=Specific file
@@ -420,7 +420,7 @@ translation=Faili maalum
 
 [setting.file.option-choice-daily-note]
 original=Daily note
-translation=Noti ya kila siku
+translation=Kumbukumbu ya kila siku
 
 [setting.file.option-default-open-file-path]
 original=File to open
@@ -440,15 +440,15 @@ translation=Zima ili ulazuiwe kuulizwa kusasisha viungo baada ya kubadili jina l
 
 [setting.file.option-new-note-location]
 original=Default location for new notes
-translation=Mahali chaguo-msingi kwa noti mpya.
+translation=Mahali chaguo-msingi kwa kumbukumbu mpya.
 
 [setting.file.option-new-note-location-description]
 original=Where newly created notes are placed.
-translation=Mahali noti mpya litawekwa.
+translation=Mahali kumbukumbu mpya litawekwa.
 
 [setting.file.option-choice-vault-root]
 original=Vault folder
-translation=Folda ya hazina
+translation=Folda ya ghala
 
 [setting.file.option-choice-current-folder]
 original=Same folder as current file
@@ -460,11 +460,11 @@ translation=Kwenye folda iliyotajwa hapa chini
 
 [setting.file.option-new-file-folder-path]
 original=Folder to create new notes in
-translation=Folda ya kutengeneza noti mpya
+translation=Folda ya kutengeneza kumbukumbu mpya
 
 [setting.file.option-new-file-folder-path-description]
 original=Newly created notes will appear in this folder.
-translation=Noti mpya yatawekwa kwenye folda hii.
+translation=Kumbukumbu mpya yatawekwa kwenye folda hii.
 
 [setting.file.option-use-wiki-links]
 original=Use [[Wikilinks]]
@@ -504,7 +504,7 @@ translation=Njia kutoka faili ya sasa
 
 [setting.file.option-choice-absolute-path]
 original=Path from vault folder
-translation=Njia kutoka folda ya hazina
+translation=Njia kutoka folda ya ghala
 
 [setting.file.option-new-attachment-location]
 original=Default location for new attachments
@@ -536,7 +536,7 @@ translation=Jina la folda ndogo
 
 [setting.file.option-attachment-subfolder-path-description]
 original=If your file is in “vault/folder”, and you set subfolder name to “attachments”, attachments will be saved to “vault/folder/attachments”.
-translation=Kama faili yako iko katika “hazina/folda”, na ukapa jina la folda ndogo “viambatanisho”, viambatanisho vitahifadhiwa katika “hazina/folda/viambatanisho”.
+translation=Kama faili yako iko katika “ghala/folda”, na ukapa jina la folda ndogo “viambatanisho”, viambatanisho vitahifadhiwa katika “ghala/folda/viambatanisho”.
 
 [setting.file.option-excluded-files]
 original=Excluded files
@@ -596,15 +596,15 @@ translation=
 
 [setting.appearance.alias-base-theme]
 original=dark light system night mode color scheme
-translation=
+translation=nyeusi ya mwanga mfumo hali ya usiku mpango wa rangi
 
 [setting.appearance.option-accent-color]
 original=Accent color
-translation=
+translation=Rangi ya lafudhi
 
 [setting.appearance.option-accent-color-description]
 original=Choose the accent color used throughout the app.
-translation=
+translation=Chagua rangi ya lafudhi inayotumika katika programu yote.
 
 [setting.appearance.alias-accent-color]
 original=highlight brand primary color
@@ -612,31 +612,31 @@ translation=
 
 [setting.appearance.dark-theme]
 original=Dark
-translation=
+translation=Nyeusi
 
 [setting.appearance.light-theme]
 original=Light
-translation=
+translation=Ya mwanga
 
 [setting.appearance.system-theme]
 original=Adapt to system
-translation=
+translation=Rekebisha kulingana na mfumo
 
 [setting.appearance.option-font]
 original=Font
-translation=
+translation=Fonti
 
 [setting.appearance.option-advanced]
 original=Advanced
-translation=
+translation=Mipangilio ya kina
 
 [setting.appearance.option-interface]
 original=Interface
-translation=
+translation=Kiolesura
 
 [setting.appearance.option-interface-font]
 original=Interface font
-translation=
+translation=Fonti ya kiolesura
 
 [setting.appearance.option-interface-font-description]
 original=Set base font for all of Obsidian.
@@ -668,15 +668,15 @@ translation=
 
 [setting.appearance.label-font-count]
 original={{count}} font
-translation=
+translation=fonti {{count}}
 
 [setting.appearance.label-font-count_plural]
 original={{count}} fonts
-translation=
+translation=fonti {{count}}
 
 [setting.appearance.option-font-placeholder]
 original=Enter font name...
-translation=
+translation=Ingiza jina la fonti...
 
 [setting.appearance.label-no-custom-font-set]
 original=No custom font is applied right now. Add one below.
@@ -696,11 +696,11 @@ translation=
 
 [setting.appearance.label-font-name]
 original=Font name
-translation=
+translation=Jina la fonti
 
 [setting.appearance.option-community-themes]
 original=Community themes
-translation=
+translation=Mandhari ya jamii
 
 [setting.appearance.option-community-themes-description]
 original=Preview and use amazing themes created by the community.
@@ -708,7 +708,7 @@ translation=
 
 [setting.appearance.button-browse-community-themes]
 original=Browse
-translation=
+translation=Vinjari
 
 [setting.appearance.option-font-size]
 original=Font size
@@ -736,7 +736,7 @@ translation=Mandhari
 
 [setting.appearance.option-manage-themes-description]
 original=Manage installed themes and browse community themes.
-translation=
+translation=Dhibiti mandhari zilizosakinishwa na uvinjari mandhari za jumuiya.
 
 [setting.appearance.alias-themes]
 original=community browse install download
@@ -776,7 +776,7 @@ translation=Hakuna vipande vya CSS vilivyopatikana.
 
 [setting.appearance.label-enabled-snippets-count]
 original={{count}} enabled
-translation=
+translation={{count}} zimewezeshwa
 
 [setting.appearance.no-snippet-description]
 original=CSS snippets let you customize the appearance of Obsidian. Place CSS files in “{{path}}” for them to appear here.
@@ -784,11 +784,11 @@ translation=Vipande vya CSS hukuruhusu kubinafsisha mwonekano wa Obsidian. Weka 
 
 [setting.appearance.button-reload-snippets]
 original=Reload snippets
-translation=
+translation=Pakia upya vipande
 
 [setting.appearance.button-open-snippets-folder]
 original=Open snippets folder
-translation=
+translation=Fungua folda ya vipande
 
 [setting.appearance.msg-reloaded-snippets]
 original=Reloaded CSS snippets.
@@ -804,23 +804,23 @@ translation=Mandhari zilizosakinishwa
 
 [setting.appearance.label-screenshot-unavailable]
 original=Screenshot unavailable
-translation=
+translation=Picha ya skrini haipatikani
 
 [setting.appearance.label-default-theme]
 original=Default
-translation=
+translation=Chaguo-msingi
 
 [setting.appearance.tooltip-click-to-enlarge]
 original=Click to enlarge
-translation=
+translation=Bonyeza ili kupanua
 
 [setting.appearance.button-update]
 original=Update
-translation=
+translation=Sasisho
 
 [setting.appearance.label-currently-active]
 original=Active
-translation=
+translation=Inayotumika
 
 [setting.appearance.option-frame-style]
 original=Window frame style
@@ -832,7 +832,7 @@ translation=
 
 [setting.appearance.option-frame-hidden]
 original=Hidden (default)
-translation=
+translation=Imefichwa (chaguo-msingi)
 
 [setting.appearance.option-frame-obsidian]
 original=Obsidian frame
@@ -876,11 +876,11 @@ translation=
 
 [setting.appearance.button-configure]
 original=Configure
-translation=
+translation=Sanidi
 
 [setting.appearance.option-show-ribbon]
 original=Show ribbon
-translation=
+translation=Onyesha utepe
 
 [setting.appearance.option-show-ribbon-desc]
 original=Display vertical toolbar on the side of the window.
@@ -892,7 +892,7 @@ translation=
 
 [setting.appearance.label-modal-configuration]
 original=Ribbon menu
-translation=
+translation=Menyu ya utepe
 
 [setting.appearance.label-modal-configuration-desc]
 original=Choose what items you want to be active in the ribbon. Drag and drop to change the order.
@@ -924,7 +924,7 @@ translation=
 
 [setting.appearance.option-auto-full-screen]
 original=Full screen
-translation=
+translation=Skrini nzima
 
 [setting.appearance.option-auto-full-screen-desc]
 original=Automatically hide interface elements while reading.
@@ -932,11 +932,11 @@ translation=
 
 [setting.appearance.msg-updates-found]
 original=Found {{count}} theme to update.
-translation=
+translation=Mandhari {{count}} ya kusasisha
 
 [setting.appearance.msg-updates-found_plural]
 original=Found {{count}} themes to update.
-translation=
+translation=Mandhari {{count}} za kusasisha
 
 [setting.appearance.button-check-for-updates]
 original=Check for updates
@@ -948,19 +948,19 @@ translation=Tazama masasisho
 
 [setting.appearance.button-update-all-themes]
 original=Update all
-translation=
+translation=Sasisha zote
 
 [setting.appearance.label-current-themes]
 original=Current community themes
-translation=
+translation=Mandhari za jumuiya zilizopo
 
 [setting.appearance.label-currently-installed]
 original=You currently have {{count}} theme installed.
-translation=
+translation=Kwa sasa una mandhari {{count}} iliyosakinishwa.
 
 [setting.appearance.label-currently-installed_plural]
 original=You currently have {{count}} themes installed.
-translation=
+translation=Kwa sasa una mandhari {{count}} zilizosakinishwa.
 
 [setting.appearance.option-open-settings-in-window]
 original=Open settings in new window
@@ -972,7 +972,7 @@ translation=
 
 [setting.interface.name]
 original=Interface
-translation=
+translation=Kiolesura
 
 [setting.interface.option-mobile]
 original=Mobile
@@ -980,51 +980,51 @@ translation=
 
 [setting.interface.option-advanced]
 original=Advanced
-translation=
+translation=Mipangilio ya kina
 
 [setting.hotkeys.name]
 original=Hotkeys
-translation=
+translation=Njia za mkato
 
 [setting.hotkeys.option-search]
 original=Search hotkeys
-translation=
+translation=Tafuta njia za mkato za kibodi
 
 [setting.hotkeys.option-search-desc]
 original=Showing {{count}} hotkey. 
-translation=
+translation=Inaonyesha njia {{count}} ya mkato.
 
 [setting.hotkeys.option-search-desc_plural]
 original=Showing {{count}} hotkeys. 
-translation=
+translation=Inaonyesha njia {{count}} za mkato
 
 [setting.hotkeys.prompt-filter]
 original=Filter...
-translation=
+translation=Chuja...
 
 [setting.hotkeys.tooltip-delete-hotkey]
 original=Delete hotkey
-translation=
+translation=Ondoa njia ya mkato
 
 [setting.hotkeys.label-waiting-for-hotkey-press]
 original=Press hotkey...
-translation=
+translation=Bonyeza njia ya mkato
 
 [setting.hotkeys.label-show-all]
 original=All
-translation=
+translation=Zote
 
 [setting.hotkeys.label-show-conflicts]
 original=Conflicts
-translation=
+translation=Migogoro
 
 [setting.hotkeys.label-show-unassigned]
 original=Unassigned
-translation=
+translation=Hazijawekwa
 
 [setting.hotkeys.label-show-assigned]
 original=Assigned
-translation=
+translation=Zilizowekwa
 
 [setting.hotkeys.label-show-user-assigned]
 original=Assigned by me
@@ -1268,15 +1268,15 @@ translation=
 
 [setting.about.option-get-help]
 original=Help
-translation=
+translation=Usaidizi
 
 [setting.about.option-get-help-description]
 original=Learn how to use Obsidian and get help from the community.
-translation=
+translation=Jifunze jinsi ya kutumia Obsidian na upate usaidizi kutoka kwa jamii.
 
 [setting.about.button-open]
 original=Open
-translation=
+translation=Fungua
 
 [setting.about.option-language]
 original=Language
@@ -1296,7 +1296,7 @@ translation=
 
 [setting.about.option-advanced]
 original=Advanced
-translation=
+translation=Mipangilio ya kina
 
 [setting.about.option-hw-acceleration]
 original=Hardware acceleration
@@ -1340,7 +1340,7 @@ translation=
 
 [setting.about.label-invalid-commercial-license]
 original=License invalid: 
-translation=
+translation=Leseni si sahihi:
 
 [setting.about.button-remove-commercial-license]
 original=Remove
@@ -1448,7 +1448,7 @@ translation=
 
 [setting.account.message-invalid-email]
 original=Email is not valid.
-translation=
+translation=Barua pepe si halali.
 
 [setting.account.message-empty-password]
 original=Password cannot be empty.
@@ -1680,19 +1680,19 @@ translation=Fungua ukurasa wa jumuiya
 
 [setting.third-party-plugin.action-settings]
 original=Settings
-translation=
+translation=Mipangilio
 
 [setting.third-party-plugin.button-donate]
 original=Donate
-translation=
+translation=Toa mchango
 
 [setting.third-party-plugin.label-no-results-found]
 original=No results found.
-translation=
+translation=Hakuna matokeo yaliyopatikana.
 
 [setting.third-party-plugin.label-no-recent-files-found]
 original=No recent files found. Type to search...
-translation=
+translation=Hakuna faili za hivi karibuni zilizopatikana. Chapa ili utafute...
 
 [setting.third-party-plugin.msg-failed-to-load-manifest]
 original=Failed to load plugin manifest.
@@ -1704,11 +1704,11 @@ translation=Toleo: {{version}}
 
 [setting.third-party-plugin.label-currently-installed-version]
 original= (currently installed: {{version}})
-translation=
+translation= (imewekwa sasa: {{version}})
 
 [setting.third-party-plugin.label-by-author]
 original=By 
-translation=
+translation=Na
 
 [setting.third-party-plugin.label-repository]
 original=Repository: 
@@ -1920,7 +1920,7 @@ translation=
 
 [setting.mobile-toolbar.option-internal-link]
 original=Add internal link
-translation=
+translation=Ongeza kiungo cha ndani
 
 [setting.mobile-toolbar.option-internal-embed]
 original=Add embed
@@ -2072,7 +2072,7 @@ translation=
 
 [editor.link-suggestion.label-type-hash]
 original=Type #
-translation=
+translation=Chapa #
 
 [editor.link-suggestion.label-link-heading]
 original=to link heading
@@ -2292,15 +2292,15 @@ translation=
 
 [interface.manage-vaults]
 original=Manage vaults...
-translation=Dhibiti hazina...
+translation=Dhibiti maghala...
 
 [interface.help]
 original=Help
-translation=Msaada
+translation=Usaidizi
 
 [interface.settings]
 original=Settings
-translation=
+translation=Mipangilio
 
 [interface.drag-to-rearrange]
 original=Drag to rearrange
@@ -2424,7 +2424,7 @@ translation=
 
 [interface.button-manage]
 original=Manage
-translation=
+translation=Dhibiti
 
 [interface.label-new-tab]
 original=New tab
@@ -2740,83 +2740,83 @@ translation=Mwonekano wa kusoma
 
 [interface.menu.add-property]
 original=Add file property
-translation=
+translation=Ongeza sifa ya faili
 
 [interface.menu.delete]
 original=Delete
-translation=
+translation=Futa
 
 [interface.menu.delete-file]
 original=Delete file
-translation=
+translation=Futa faili
 
 [interface.menu.create-file]
 original=Create this file
-translation=
+translation=Unda faili hii
 
 [interface.menu.open-link]
 original=Open link
-translation=
+translation=Fungua kiungo
 
 [interface.menu.open-in-new-tab]
 original=Open in new tab
-translation=
+translation=Fungua kwenye kichupo kipya
 
 [interface.menu.open-to-the-right]
 original=Open to the right
-translation=
+translation=Fungua upande wa kulia
 
 [interface.menu.copy-url]
 original=Copy URL
-translation=
+translation=Nakili URL
 
 [interface.menu.copy]
 original=Copy
-translation=
+translation=Nakili
 
 [interface.menu.cut]
 original=Cut
-translation=
+translation=Kata
 
 [interface.menu.paste]
 original=Paste
-translation=
+translation=Bandika
 
 [interface.menu.copy-path]
 original=Copy path
-translation=
+translation=Nakili njia ya faili
 
 [interface.menu.copy-image]
 original=Copy image
-translation=
+translation=Nakili picha
 
 [interface.menu.copy-obsidian-url]
 original=as Obsidian URL
-translation=
+translation=kama URL ya Obsidian
 
 [interface.menu.copy-full-path]
 original=from system root
-translation=
+translation=kutoka kwa mzizi wa mfumo
 
 [interface.menu.copy-vault-path]
 original=from vault folder
-translation=
+translation=kutoka folda ya ghala
 
 [interface.menu.paste-as-plain-text]
 original=Paste as plain text
-translation=
+translation=Bandika kama maandishi wazi
 
 [interface.menu.lookup-selection]
 original=Look up “{{selection}}”
-translation=
+translation=Tafuta “{{selection}}”
 
 [interface.menu.select-all]
-original=Select all
+original=Select allChagua zote
 translation=
 
 [interface.menu.rename-heading]
 original=Rename this heading...
-translation=
+translation=Badilisha jina la kichwa hiki...
 
 [interface.menu.rename-blockid]
 original=Rename this block ID...
@@ -2824,15 +2824,15 @@ translation=
 
 [interface.menu.open-in-new-window]
 original=Open in new window
-translation=
+translation=Fungua katika dirisha jipya
 
 [interface.menu.move-to-new-window]
 original=Move to new window
-translation=
+translation=Hamisha hadi dirisha jipya
 
 [interface.menu.open-in-browser]
 original=Open external link
-translation=
+translation=Fungua kiungo cha nje
 
 [interface.menu.stack-tabs]
 original=Stack tabs
@@ -2848,19 +2848,19 @@ translation=
 
 [interface.tooltip.click-to-expand]
 original=Click to expand
-translation=
+translation=Bofya ili kupanua
 
 [interface.tooltip.click-to-collapse]
 original=Click to collapse
-translation=
+translation=Bonyeza ili kukunja
 
 [interface.tooltip.alias]
 original=Alias
-translation=
+translation=Jina bandia
 
 [interface.tooltip.not-created-yet]
 original=Not created yet, select to create
-translation=
+translation=Haijaundwa bado, chagua ili kuunda
 
 [interface.start-screen.label-version]
 original=Version
@@ -2868,27 +2868,27 @@ translation=Toleo
 
 [interface.start-screen.label-create-local-vault]
 original=Create local vault
-translation=
+translation=Unda ghala ya ndani
 
 [interface.start-screen.option-open-folder-as-vault]
 original=Open folder as vault
-translation=
+translation=Fungua folda kama ghala
 
 [interface.start-screen.option-open-folder-as-vault-description]
 original=Choose an existing folder of Markdown files.
-translation=
+translation=Chagua folda iliyopo ya faili za Markdown.
 
 [interface.start-screen.option-create-vault]
 original=Create new vault
-translation=
+translation=Unda ghala jipya
 
 [interface.start-screen.option-create-vault-description]
 original=Create a new Obsidian vault under a folder.
-translation=
+translation=Unda ghala jipya la Obsidian kwenye folda.
 
 [interface.start-screen.option-connect-obsidian-sync]
 original=Open vault from Obsidian Sync
-translation=
+translation=Ghala wazi kutoka Obsidian Sync
 
 [interface.start-screen.option-connect-obsidian-sync-description]
 original=Set up a synced vault with existing remote vault.
@@ -2896,7 +2896,7 @@ translation=
 
 [interface.start-screen.option-new-vault-name]
 original=Vault name
-translation=
+translation=Jina la ghala
 
 [interface.start-screen.option-new-vault-name-description]
 original=Pick a name for your awesome vault.
@@ -2916,7 +2916,7 @@ translation=
 
 [interface.start-screen.option-reveal-vault-in-explorer]
 original=Reveal vault in system explorer
-translation=Fumbua hazina katika kichunguzi cha mfumo
+translation=Fumbua ghala katika kichunguzi cha mfumo
 
 [interface.start-screen.option-reveal-vault-in-explorer-mac]
 original=Reveal vault in Finder
@@ -3012,7 +3012,7 @@ translation=
 
 [interface.start-screen.msg-invalid-folder]
 original=Please pick a valid folder.
-translation=
+translation=Tafadhali chagua folda sahihi.
 
 [interface.start-screen.msg-failed-to-create-vault]
 original=Failed to create vault.
@@ -3032,15 +3032,15 @@ translation=
 
 [interface.start-screen.option-get-help]
 original=Get Help
-translation=
+translation=Pata usaidizi
 
 [interface.start-screen.option-user-email]
 original=Email
-translation=
+translation=Barua pepe
 
 [interface.start-screen.placeholder-your-email]
 original=Your email...
-translation=
+translation=Barua pepe yako...
 
 [interface.start-screen.option-user-password]
 original=Password
@@ -3456,7 +3456,7 @@ translation=
 
 [interface.starter-content.welcome-filename]
 original=Welcome
-translation=
+translation=Karibu
 
 [interface.starter-content.welcome-file-content]
 original=This is your new *vault*.\n\nMake a note of something, [[create a link]], or try [the Importer](obsidian://show-plugin?id=obsidian-importer)!\n\nWhen you're ready, delete this note and make the vault your own.
@@ -3464,15 +3464,15 @@ translation=
 
 [interface.drag-and-drop.insert-link-here]
 original=Insert link here
-translation=
+translation=Weka kiungo hapa
 
 [interface.drag-and-drop.insert-links-here]
 original=Insert links here
-translation=
+translation=Weka viungo hapa
 
 [interface.drag-and-drop.move-into-folder]
 original=Move into “{{folder}}”
-translation=
+translation=Ingia ndani "{{folder}}"
 
 [interface.drag-and-drop.star-this-file]
 original=Star this file
@@ -3748,15 +3748,15 @@ translation=
 
 [commands.manage-vaults]
 original=Manage vaults
-translation=
+translation=Dhibiti maghala
 
 [commands.search-current-file]
 original=Search current file
-translation=
+translation=Tafuta katika faili ya sasa
 
 [commands.search-replace-current-file]
 original=Search & replace in current file
-translation=
+translation=Tafuta na ubadilishe katika faili ya sasa
 
 [commands.add-property]
 original=Add file property
@@ -3780,11 +3780,11 @@ translation=
 
 [commands.open-settings]
 original=Open settings
-translation=
+translation=Fungua mipangilio
 
 [commands.open-help]
 original=Open help
-translation=
+translation=Fungua usaidizi
 
 [commands.toggle-edit]
 original=Toggle editing/reading view
@@ -4020,11 +4020,11 @@ translation=
 
 [commands.zoom-in]
 original=Zoom in
-translation=
+translation=Kuza
 
 [commands.zoom-out]
 original=Zoom out
-translation=
+translation=Punguza ukubwa 
 
 [commands.reset-zoom]
 original=Reset zoom
@@ -4064,23 +4064,23 @@ translation=
 
 [commands.show-release-notes]
 original=Show release notes
-translation=
+translation=Onyesha maelezo ya kutolewa.
 
 [dialogue.label-link-affected]
 original=This will affect {{links}} in {{files}}.
-translation=
+translation=Hii itaathiri {{links}} katika {{files}}.
 
 [dialogue.msg-updated-links]
 original=Updated {{links}} in {{files}}.
-translation=
+translation=Imesasisha {{links}} katika {{files}}.
 
 [dialogue.label-update-links]
 original=Update links
-translation=
+translation=Sasisha viungo
 
 [dialogue.label-confirm-update-link-to-file]
 original=Do you want to update internal links that link to this file?
-translation=
+translation=Unataka kusasisha viungo vya ndani vinavyounganisha faili hii?
 
 [dialogue.button-always-update]
 original=Always update
@@ -6560,7 +6560,7 @@ translation=Ushirikiano wa tovuti
 
 [plugins.publish.option-site-collaboration-desc]
 original=Manage collaborators for this site.
-translation=Dhibiti washirika wa tovuti hii
+translation=Dhibiti washirika wa tovuti hii.
 
 [plugins.publish.option-customize-navigation]
 original=Customize navigation
@@ -6700,11 +6700,11 @@ translation=
 
 [plugins.publish.option-site-password]
 original=Passwords
-translation=Nywila
+translation=Manenosiri
 
 [plugins.publish.option-site-password-description]
 original=Restrict access to your site with passwords.
-translation=Zuia ufikiaji wa tovuti yako kwa nywila.
+translation=Zuia ufikiaji wa tovuti yako kwa kutumia manenosiri.
 
 [plugins.publish.option-google-analytics]
 original=Google Analytics tracking code
@@ -6884,7 +6884,7 @@ translation=
 
 [plugins.publish.option-password-name]
 original=Password
-translation=Nywila
+translation=Nenosiri
 
 [plugins.publish.option-password-desc]
 original=A hash of your password will be stored securely. Once the password is set, it cannot be revealed in plaintext.
@@ -6892,7 +6892,7 @@ translation=
 
 [plugins.publish.option-password-placeholder]
 original=Your password
-translation=
+translation=Nenosiri lako
 
 [plugins.publish.option-nickname-name]
 original=Nickname (optional)
@@ -9560,7 +9560,7 @@ translation=
 
 [plugins.bases.msg-error-invalid-property]
 original=Invalid property
-translation=
+translation=Sifa batili
 
 [plugins.bases.msg-new-item-filtered]
 original=This note will be filtered out because it doesn't match your criteria
@@ -9568,35 +9568,35 @@ translation=
 
 [plugins.bases.placeholder-filter-advanced-mode]
 original=Advanced filter
-translation=
+translation=Kichujio cha kina
 
 [plugins.bases.placeholder-limit]
 original=e.g. 10
-translation=
+translation=k.m., 10
 
 [plugins.bases.tooltip-filter-advanced-mode]
 original=Advanced filter
-translation=
+translation=Kichujio cha kina
 
 [plugins.bases.tooltip-filter-simple-mode]
 original=Simple filter
-translation=
+translation=Kichujio rahisi
 
 [plugins.bases.tooltip-remove-filter]
 original=Remove filter
-translation=
+translation=Ondoa kichujio
 
 [plugins.bases.label-group-key-none]
 original=None
-translation=
+translation=Hakuna
 
 [plugins.bases.list.name]
 original=List
-translation=
+translation=Orodha
 
 [plugins.bases.list.label-markers]
 original=Markers
-translation=
+translation=Alama za orodha
 
 [plugins.bases.list.label-indent-properties]
 original=Indent properties
@@ -9608,23 +9608,23 @@ translation=
 
 [plugins.bases.list.option-bullet]
 original=Bullet
-translation=
+translation=Pointi ya risasi
 
 [plugins.bases.list.option-number]
 original=Number
-translation=
+translation=Nambari
 
 [plugins.bases.list.option-none]
 original=None
-translation=
+translation=Hakuna
 
 [plugins.bases.cards.name]
 original=Cards
-translation=
+translation=Kadi
 
 [plugins.bases.cards.label-card-size]
 original=Card size
-translation=
+translation=Ukubwa wa kadi
 
 [plugins.bases.cards.label-image-property]
 original=Image property
@@ -9636,35 +9636,35 @@ translation=
 
 [plugins.bases.cards.option-image-fit-cover]
 original=Cover
-translation=
+translation=Jalada
 
 [plugins.bases.cards.option-image-fit-contain]
 original=Contain
-translation=
+translation=Vyenye
 
 [plugins.bases.cards.label-image-aspect-ratio]
 original=Image aspect ratio
-translation=
+translation=Uwiano wa kipengele cha picha
 
 [plugins.bases.kanban.name]
 original=Kanban
-translation=
+translation=Kanban
 
 [plugins.bases.kanban.action-edit-columns]
 original=Edit groups...
-translation=
+translation=Hariri vikundi
 
 [plugins.bases.kanban.label-column-width]
 original=Column width
-translation=
+translation=Upana wa safu wima
 
 [plugins.bases.kanban.title-no-group-by]
 original=Add columns
-translation=
+translation=Ongeza safu wima
 
 [plugins.bases.kanban.text-no-group-by]
 original=Choose a property to group by.
-translation=
+translation=Chagua sifa ya kuweka pamoja.
 
 [plugins.bases.kanban.action-choose-property]
 original=Choose property
@@ -9876,15 +9876,15 @@ translation=
 
 [pdf.msg-password-protected]
 original=This PDF is password protected
-translation=
+translation=PDF hii inalindwa kwa nenosiri
 
 [pdf.msg-invalid-password]
 original=Invalid password
-translation=
+translation=Nenosiri si sahihi
 
 [pdf.msg-enter-password]
 original=Enter the password below
-translation=
+translation=Ingiza nenosiri hapa chini
 
 [pdf.label-of-pages]
 original=of {{count}}
@@ -10284,11 +10284,11 @@ translation=vichupo {{count}}
 
 [nouns.properties-with-count]
 original={{count}} property
-translation=mali {{count}}
+translation=sifa {{count}}
 
 [nouns.properties-with-count_plural]
 original={{count}} properties
-translation=mali {{count}}
+translation=sifa {{count}}
 
 [nouns.site-with-count]
 original={{count}} site
@@ -10308,7 +10308,7 @@ translation=programu-jalizi {{count}}
 
 [nouns.plugin-active-with-count]
 original={{count}} active
-translation={{count}} inayotumika
+translation={{count}} zinazotumika
 
 [nouns.snippet-active-with-count]
 original={{count}} snippet
@@ -10404,11 +10404,11 @@ translation=Faili: {{path}}
 
 [main.vault-not-found-title]
 original=Vault not found.
-translation=Hazina haikupatikana.
+translation=Ghala haikupatikana.
 
 [main.vault-not-found-message]
 original=Unable to find a vault for the URL {{url}}
-translation=Haikuweza kupata hazina vitu kwa ajili ya URL ya {{url}}
+translation=Haikuweza kupata ghala vitu kwa ajili ya URL ya {{url}}
 
 [main.supported-files]
 original=Supported files
